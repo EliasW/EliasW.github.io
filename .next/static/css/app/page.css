@@ -1,0 +1,35 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./globals.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+/* app/globals.css */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1 1;
+  overflow-y: auto;
+  padding-top: 60px;
+  /* Match Header height */
+  box-sizing: border-box;
+}
+
+.text-content {
+  display: flex;
+  flex: 1 1;
+  font-size: x-large;
+
+}
